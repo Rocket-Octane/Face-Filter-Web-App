@@ -1,0 +1,25 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: orangered;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0% {box-shadow: 1px 1px 38px purple;}
+    50% {box-shadow: 1px 1px 38px blue;}
+    100% {box-shadow: 1px 1px 38px purple;}
+}
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
